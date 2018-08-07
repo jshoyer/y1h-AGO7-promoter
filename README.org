@@ -2,3 +2,6 @@
 These files accompany a soon-to-be-submitted manuscript.
 They are from a high-throughput screens
 done to identify direct upstream regulators of AGO7.
+
+The script 2011-01_AGO-screens/figure1-etc.R
+is the most important one for the paper.
