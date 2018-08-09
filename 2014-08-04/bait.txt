@@ -1,0 +1,384 @@
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+WT
+WT
+8-bp
+8-bp
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs1
+SPLbs1
+pAGO7 -750/-476
+pAGO7 -750/-476
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs2
+SPLbs2
+pAGO7 -750/-501
+pAGO7 -750/-501
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
+SPLbs
+SPLbs
+TCPbs
+TCPbs
