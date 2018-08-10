@@ -5,3 +5,7 @@ done to identify direct upstream regulators of AGO7.
 
 The script 2011-01_AGO-screens/figure1-etc.R
 is the most important one for the paper.
+
+2014-08-04/graphs-of-Aug-2014-data.R
+compares bait with SPL core binding sites deleted.
+It was used for Figure 2D in the manuscript.
