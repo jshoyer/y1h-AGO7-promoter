@@ -25,3 +25,8 @@ and Figure 3.
 It uses six DNA-binding specificity models
 downloaded from the CisBP database
 (Weirauch et al. 2014).
+That directory also includes output tables
+from scanning AGO7, AGO1, and AGO10 upstream regions
+with FIMO
+using three sets of motifs
+available in the online MEME suite.
