@@ -6,7 +6,9 @@ done to identify direct upstream regulators of AGO7.
 The script 2011-01_AGO-screens/figure1-etc.R
 is the most important one for the paper.
 
-2013-12-06/
+2013-12-06/graphs-of-Dec-2013-data.R
+compares signal for different TFs
+tested against a single AGO7 promoter fragment.
 It was used for Supplemental Figure S4 in the manuscript.
 
 2014-08-04/graphs-of-Aug-2014-data.R
