@@ -18,3 +18,10 @@ It was used for Figure 2D in the manuscript.
 2014-07-24/graphs-of-July-2014-data.R
 compares bait with TCP core binding sites deleted.
 It was used for Figure 4 in the manuscript.
+
+2014_Weirauch-etc/scanBothStrandsPlot.R
+was used for Figure 2, panels B and C,
+and Figure 3.
+It uses six DNA-binding specificity models
+downloaded from the CisBP database
+(Weirauch et al. 2014).
