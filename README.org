@@ -9,3 +9,7 @@ is the most important one for the paper.
 2014-08-04/graphs-of-Aug-2014-data.R
 compares bait with SPL core binding sites deleted.
 It was used for Figure 2D in the manuscript.
+
+2014-07-24/graphs-of-July-2014-data.R
+compares bait with TCP core binding sites deleted.
+It was used for Figure 4 in the manuscript.
