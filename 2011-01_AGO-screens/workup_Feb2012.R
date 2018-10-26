@@ -164,7 +164,9 @@ fragments <- paste(
 
 dir.create("working-data")
 
-# Twelve sorted tables for supplemental Excel file:
+# Twelve sorted tables for supplemental Excel file,
+# deposited in Zenodo:
+# https://doi.org/10.5281/zenodo.1472235
 for (i in 1:12) {
     tableForFragment <- filter(
         allSorted, fullfragment == fragments[i])
