@@ -9,7 +9,11 @@
 #' Output:
 #'   A dataframe, y1h,
 #'   that is *not currently saved*.
-#'   Also save a CSV table of counts by family.
+#'   Also save a CSV table of counts by family
+#'   and sorted tables
+#'   for all twelve promoter fragments.
+
+library(dplyr)  # Only used at end of script.
 
 A600 <- read.table("../2011-01_AGO-screens/working-data-tall-600nm.txt")
 A420 <- read.table("../2011-01_AGO-screens/working-data-tall-420nm.txt")
@@ -107,6 +111,7 @@ write.csv(actualTable,
 y1h$betagal[y1h$A600 < 0.2] <- NA
 y1h$state[y1h$A600 < 0.2 & ! y1h$state %in% c("pEXP-AD502","Empty")] <- "Masked"
 
+
 y1h$logbetagal <- log(y1h$betagal)
 
 plateMedians <- vector(length = 60)
@@ -129,4 +134,43 @@ medianAcrossScreens <- vector(length = 1920)
 for (i in 1:1920) {
     medianAcrossScreens[i] <- median(y1h$foldChange[i + 384 * 5 * 0:11],
                                  na.rm = TRUE)
+}
+
+#' Probably a noisy measure:
+y1h$medianAcrossScreens <- medianAcrossScreens
+y1h$crossScreenMedianNormalized <-
+    y1h$foldChange / medianAcrossScreens
+
+nonspecificAutoactivatorWells <-
+    filter(y1h, medianAcrossScreens > 2)
+y1hSansNonspecificAutoactivators <-
+    filter(y1h, medianAcrossScreens < 2)
+
+#' library(dplyr)
+allSorted <- arrange(
+    y1hSansNonspecificAutoactivators,
+    desc(MADsAboveMedian))
+# Cf. 'sorted' data frame, just above.
+allSorted <- filter(allSorted,
+                    state %in% c("TF-AD", "pEXP-AD502"))
+allSorted <- filter(allSorted,
+                    ! is.na(betagal))
+# pEXP-AD502 wells for which A600 < 0.2
+allSorted <- select(allSorted,
+                    -state, -didntgrow)
+
+fragments <- paste(
+    rep(AGOs, each = 4), frags)
+
+dir.create("working-data")
+
+# Twelve sorted tables for supplemental Excel file:
+for (i in 1:12) {
+    tableForFragment <- filter(
+        allSorted, fullfragment == fragments[i])
+    ## Column stuck in the middle,
+    ## such that it is easiest to just remove it here:
+    tableForFragment <- select(tableForFragment, -fullfragment)
+    write.csv(tableForFragment,
+              paste0("working-data/", fragments[i], ".csv"))
 }
