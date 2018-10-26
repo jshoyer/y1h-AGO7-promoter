@@ -72,7 +72,7 @@ length(c(empty1$V1, empty2$V1, empty3$V1, empty4$V1, empty5$V1))
 #' Number of strains that did grow when spotted before experiment:
 #' 1678 - 174
 #' (Not a unique count---includes a spot for the control on each plate.
-#' There 15 "no DNA-binding domain" control wells,
+#' There were 15 "no DNA-binding domain" control wells,
 #' as can be seen above.
 length(which(y1h$AGI ==   "pEXP-AD502"))/12
 #' All grew when spotted---cf. below.
