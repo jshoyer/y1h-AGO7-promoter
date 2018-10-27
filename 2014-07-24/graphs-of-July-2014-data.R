@@ -1,6 +1,6 @@
 
 #' J. Steen Hoyer, Carrington lab, DDPSC.
-#' Started 2014-07-24 (experiment end date; only data collection day).
+#' Started 2014-07-24 (the experiment end date)
 #'
 #' This script is mainly meant
 #' to concretely reproduce the figure in the paper.
@@ -78,8 +78,23 @@ simpleTCPsubset <- nonautoactive[
                                  nonautoactive$bait == "pAGO7 -990/-446",
                                  ]
 
+## Two graphs, for preprint version of Figure 4:
 dotplot(bait ~ activity, data = simpleTCPsubset[simpleTCPsubset$prey == "TCP2", ],
         main = "TCP2", xlab = activity, xlim = c(-100, 2500),)
 
 dotplot(bait ~ activity, data = simpleTCPsubset[simpleTCPsubset$prey == "Empty", ],
         main = "Empty vector", xlab = activity, xlim = c(-100, 2500),)
+
+## Per reviewer suggestion,
+## put all the data points on a single graph, color-coded.
+## I thought I had done this before
+## and decided the other layout was better,
+## but I do not remember why.
+emptyVectorVsTCP2 <-
+    simpleTCPsubset[simpleTCPsubset$prey %in% c("Empty", "TCP2"), ]
+
+dotplot(bait ~ activity, data = simplerSubsetStill,
+        group = prey,
+        xlab = activity, xlim = c(-100, 2500),
+        auto.key = TRUE)
+## Should have probably plotted the mean for each group too.
