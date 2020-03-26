@@ -2,9 +2,13 @@
 These files accompany a paper
 that was published in Plant Direct:
 https://doi.org/10.1002/pld3.102
+
 Most of the files
 are from high-throughput screens
 done to identify direct upstream regulators of AGO7.
+The files have been archived,
+via GitHub:
+https://zenodo.org/record/1345229
 
 The script 2011-01_AGO-screens/figure1-etc.R
 is the most important one for the paper.
